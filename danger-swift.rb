@@ -9,6 +9,6 @@ class DangerSwift < Formula
   depends_on :xcode
 
   def install
-    system "make", "install"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end

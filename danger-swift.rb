@@ -1,4 +1,4 @@
-class SourceDocs < Formula
+class DangerSwift < Formula
   desc "Write your Dangerfiles in Swift"
   homepage "https://github.com/danger/danger-swift"
   version "0.1.0"

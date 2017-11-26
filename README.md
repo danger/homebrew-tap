@@ -1,2 +1,3 @@
 # homebrew-tap
-A WIP homebrew repo for Danger Swift
+
+Contains the formula for Danger Swift.

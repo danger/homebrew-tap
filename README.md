@@ -1,7 +1,15 @@
 # homebrew-tap
 
-Contains the formula for Danger Swift.
+Contains the Danger homebrew formulae for:
 
-```sh
-brew install danger/tap/danger-swift  # Install danger-swift locally
-```
+- Danger Swift
+  ```sh
+  brew install danger/tap/danger-swift
+  ```
+  
+- Danger JS
+  ```sh
+  brew install danger/tap/danger-js 
+  ```
+  
+

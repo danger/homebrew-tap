@@ -1,9 +1,9 @@
 class DangerSwift < Formula
   desc "Write your Dangerfiles in Swift"
   homepage "https://github.com/danger/danger-swift"
-  version "0.5.1"
+  version "0.6.0"
   url "https://github.com/danger/danger-swift/archive/#{version}.tar.gz"
-  sha256 "1da18a4df44e3a68c3af0c8fbf24b315c5679f9d214fcf80ba999a947666d70d"
+  sha256 "e717c45d6396298d6666334946f285062a2a26421ac80aa0307a2827056f4257"
   head "https://github.com/danger/danger-swift.git"
 
   # Runs only on Xcode 10

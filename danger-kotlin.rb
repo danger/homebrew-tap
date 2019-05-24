@@ -1,9 +1,9 @@
 class DangerKotlin < Formula
   desc "Write your Dangerfiles in Kotlin"
   homepage "https://github.com/danger/kotlin"
-  version "0.1.1"
+  version "0.1.2"
   url "https://github.com/danger/kotlin/archive/#{version}.tar.gz"
-  sha256 "ef7386e5ac50e0bddeff610d35449bbd407d05d9453c77785eb66c6c06798263"
+  sha256 "ee0eb11ba1f37d469e25b3fb5baf6d4019fdcd99bc562e31868b30d04752afa5"
   head "https://github.com/danger/kotlin.git"
 
   # Use the vendored danger

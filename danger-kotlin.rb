@@ -15,6 +15,6 @@ class DangerKotlin < Formula
 
   def install
     system "scripts/brew_install.sh"
-    system "make", "brew", "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end

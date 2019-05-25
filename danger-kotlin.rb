@@ -14,7 +14,6 @@ class DangerKotlin < Formula
   depends_on "holgerbrandl/tap/kscript"
 
   def install
-    system "scripts/brew_install.sh"
     system "make", "brew", "PREFIX=#{prefix}"
   end
 end

@@ -1,9 +1,9 @@
 class DangerKotlin < Formula
   desc "Write your Dangerfiles in Kotlin"
   homepage "https://github.com/danger/kotlin"
-  version "0.1.3"
+  version "0.1.4"
   url "https://github.com/danger/kotlin/archive/#{version}.tar.gz"
-  sha256 "aa75958b80967e3c411d70f222546d5bc646e349a8bd961c19e6432e2201f937"
+  sha256 "15075deaaffd96c2833169c381b38351fcb97190699f8545bad88776eb7f1fde"
   head "https://github.com/danger/kotlin.git"
 
   # Use the vendored danger
@@ -14,6 +14,6 @@ class DangerKotlin < Formula
   depends_on "holgerbrandl/tap/kscript"
 
   def install
-    system "make", "brew", "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end

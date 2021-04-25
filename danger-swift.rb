@@ -6,8 +6,8 @@ class DangerSwift < Formula
   sha256 "f7f12f3fc86287ea35185d6a738b76c93bcc11781a50880380159ba2061ec48b"
   head "https://github.com/danger/danger-swift.git"
 
-  # Runs only on Xcode 10
-  depends_on :xcode => ["10", :build]
+  # Runs only on Xcode 11.4
+  depends_on :xcode => ["11.4", :build]
   # Use the vendored danger
   depends_on "danger/tap/danger-js"
 

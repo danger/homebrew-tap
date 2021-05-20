@@ -12,4 +12,8 @@ Contains the Danger homebrew formulae for:
   brew install danger/tap/danger-js 
   ```
   
-
+- Danger Kotlin
+  ```sh
+  brew install danger/tap/danger-kotlin
+  ```
+  

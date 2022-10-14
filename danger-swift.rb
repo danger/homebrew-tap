@@ -3,7 +3,7 @@ class DangerSwift < Formula
   homepage "https://github.com/danger/danger-swift"
   version "3.14.2"
   url "https://github.com/danger/danger-swift/archive/#{version}.tar.gz"
-  sha256 "b0134573f8632bfb5a48f5d605cc9209433e0dbe74513d268eef3c0dd83cb802"
+  sha256 "69f6a44f62b2862937fc1af8b10f9d42a177544d75c801c47bc84a431d9fef43"
   head "https://github.com/danger/danger-swift.git"
 
   # Runs only on Xcode 12

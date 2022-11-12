@@ -1,7 +1,7 @@
 class DangerJs < Formula
   homepage "https://github.com/danger/danger-js"
-  url "https://github.com/danger/danger-js/releases/download/11.1.4/danger-macos.zip"
-  sha256 "ad42a8603dea80f33a236acc385206caefd8942aed08ae26428e0097bf072486"
+  url "https://github.com/danger/danger-js/releases/download/11.2.0/danger-macos.zip"
+  sha256 "8f13366ae9c6521186919d79e03518035e5139705811ee0f476227dcd75b456a"
 
   def install
     bin.install "danger"

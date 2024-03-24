@@ -13,7 +13,12 @@ Contains the Danger homebrew formulae for:
   ```
   
 - Danger Kotlin
-  ```sh
-  brew install danger/tap/danger-kotlin
-  ```
+  * ARM Chip (M1, M2)
+    ```sh
+    brew install danger/tap/danger-kotlin
+    ```
+  * Intel Chip
+    ```sh
+    brew install danger/tap/danger-kotlin-intel
+    ```
   

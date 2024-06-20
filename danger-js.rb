@@ -2,8 +2,8 @@ class DangerJs < Formula
   homepage "https://github.com/danger/danger-js"
 
   if Hardware::CPU.intel?
-    url "https://github.com/danger/danger-js/releases/download/12.3.2/danger-macos-x64.zip"
-    sha256 "3f645c129dd420b9e74c2b175d7921b5d9162c0fe25c8074db4d817e77e4c4b8"
+    url "https://github.com/danger/danger-js/releases/download/12.3.3/danger-macos-x64.zip"
+    sha256 "cd4944ea5d3de4d6e82a7c616cac29d5c5730d514fa0049a60eeec34003a5727"
 
     def install
       bin.install "danger-x64" => "danger"
@@ -11,8 +11,8 @@ class DangerJs < Formula
   end
 
   if Hardware::CPU.arm?
-    url "https://github.com/danger/danger-js/releases/download/12.3.2/danger-macos-arm64.zip"
-    sha256 "641966a31731c41bc418acd2128d63bb5df061b03522d20fdfb4366bcb664405"
+    url "https://github.com/danger/danger-js/releases/download/12.3.3/danger-macos-arm64.zip"
+    sha256 "e3e21069bd7d8383b0ff3d62816113e0af9c25c94b926cfce48b0fd9da92c7c3"
 
     def install
       bin.install "danger-arm64" => "danger"

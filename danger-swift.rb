@@ -1,13 +1,13 @@
 class DangerSwift < Formula
   desc "Write your Dangerfiles in Swift"
   homepage "https://github.com/danger/danger-swift"
-  version "3.18.1"
+  version "3.19.1"
   url "https://github.com/danger/danger-swift/archive/#{version}.tar.gz"
-  sha256 "7139a2be3950e7c9ff007a57ca393486bc4f55971e7be6bc1929225df33e1d8f"
+  sha256 "8ba1c25d9d601be5f2ec92d94e4ec541735f618cc86b8adb9a4fb7d2cccce01c"
   head "https://github.com/danger/danger-swift.git"
 
-  # Runs only on Xcode 12
-  depends_on :xcode => ["12", :build]
+  # Runs only on Xcode 14
+  depends_on :xcode => ["14", :build]
   # Use the vendored danger
   depends_on "danger/tap/danger-js"
 

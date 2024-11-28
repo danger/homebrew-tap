@@ -1,9 +1,9 @@
 class DangerKotlin < Formula
   desc "Write your Dangerfiles in Kotlin"
   homepage "https://github.com/danger/kotlin"
-  version "1.3.1"
+  version "1.3.2"
   url "https://github.com/danger/kotlin/releases/download/#{version}/danger-kotlin-macosArm64.tar"
-  sha256 "a2ca0ea97539eb46153dce865ec1a817687b42b4bbaf09a25937c0fb8266b407"
+  sha256 "425b39aae4802580b72bd4592cc3ab2deb9fb79bf427417a0c4e579f1cebaec9"
   head "https://github.com/danger/kotlin.git"
 
   # Use the vendored danger

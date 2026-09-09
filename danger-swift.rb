@@ -1,17 +1,20 @@
 class DangerSwift < Formula
   desc "Write your Dangerfiles in Swift"
   homepage "https://github.com/danger/danger-swift"
-  version "3.22.1"
-  url "https://github.com/danger/danger-swift/archive/#{version}.tar.gz"
-  sha256 "ec41e4aaa93c1fdd22dedfc98a9a9f843ce794d648b599b6dcb21e8d649a06b9"
-  head "https://github.com/danger/danger-swift.git"
+  version "3.23.0"
 
-  # Runs only on Xcode 14
-  depends_on :xcode => ["14", :build]
+  # Universal binary (arm64 + x86_64) — works on Apple Silicon and Rosetta.
+  url "https://github.com/danger/danger-swift/releases/download/3.23.0/danger-swift-macos-universal.tar.gz"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
   # Use the vendored danger
   depends_on "danger/tap/danger-js"
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    bin.install "danger-swift"
+  end
+
+  test do
+    assert_match "danger-swift", shell_output("#{bin}/danger-swift --help 2>&1")
   end
 end

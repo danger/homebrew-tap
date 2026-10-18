@@ -5,7 +5,7 @@ class DangerSwift < Formula
 
   # Universal binary (arm64 + x86_64) — works on Apple Silicon and Rosetta.
   url "https://github.com/danger/danger-swift/releases/download/3.23.1/danger-swift-macos-universal.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "e456b064bdcfd916426441dbed70bef9ce471bac5c3a3a1526acdfb21ab3f119"
 
   # Use the vendored danger
   depends_on "danger/tap/danger-js"
